@@ -50,8 +50,10 @@ void* playBackThread(void *args) {
     char *rtspUrl = static_cast<char *>(args);
     if (int err = avformat_open_input(&context, rtspUrl, NULL, &option) != 0) {
         __android_log_print(ANDROID_LOG_ERROR, TAG, "Cannot open input %s, error : %s", rtspUrl, err);
+        free(rtspUrl);
         return (void *)JNI_ERR;
     }
+    free(rtspUrl);
 
     //av_dict_free(&option);
 
