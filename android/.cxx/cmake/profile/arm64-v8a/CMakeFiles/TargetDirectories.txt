@@ -1,0 +1,3 @@
+/Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android/.cxx/cmake/profile/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android/.cxx/cmake/profile/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android/.cxx/cmake/profile/arm64-v8a/CMakeFiles/rtsp.dir

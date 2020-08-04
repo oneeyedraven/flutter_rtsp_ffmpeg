@@ -1,0 +1,41 @@
+{
+  "buildFiles": [
+    "/Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Volumes/SharedData/Android/sdk_mac/cmake/3.6.4111459/bin/cmake --build /Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android/.cxx/cmake/profile/arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "avutil-lib-Debug-arm64-v8a": {
+      "artifactName": "avutil-lib",
+      "abi": "arm64-v8a",
+      "output": "/Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android/src/main/jniLibs/arm64-v8a/libavutil.so"
+    },
+    "avcodec-lib-Debug-arm64-v8a": {
+      "artifactName": "avcodec-lib",
+      "abi": "arm64-v8a",
+      "output": "/Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android/src/main/jniLibs/arm64-v8a/libavcodec.so"
+    },
+    "swscale-lib-Debug-arm64-v8a": {
+      "artifactName": "swscale-lib",
+      "abi": "arm64-v8a",
+      "output": "/Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android/src/main/jniLibs/arm64-v8a/libswscale.so"
+    },
+    "rtsp-Debug-arm64-v8a": {
+      "artifactName": "rtsp",
+      "buildCommand": "/Volumes/SharedData/Android/sdk_mac/cmake/3.6.4111459/bin/cmake --build /Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android/.cxx/cmake/profile/arm64-v8a --target rtsp",
+      "abi": "arm64-v8a",
+      "output": "/Users/trivalent/Documents/workspace/fl_incusmate/build/rtsp_ffmpeg/intermediates/cmake/profile/obj/arm64-v8a/librtsp.so"
+    },
+    "swresample-lib-Debug-arm64-v8a": {
+      "artifactName": "swresample-lib",
+      "abi": "arm64-v8a",
+      "output": "/Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android/src/main/jniLibs/arm64-v8a/libswresample.so"
+    },
+    "avformat-lib-Debug-arm64-v8a": {
+      "artifactName": "avformat-lib",
+      "abi": "arm64-v8a",
+      "output": "/Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android/src/main/jniLibs/arm64-v8a/libavformat.so"
+    }
+  }
+}

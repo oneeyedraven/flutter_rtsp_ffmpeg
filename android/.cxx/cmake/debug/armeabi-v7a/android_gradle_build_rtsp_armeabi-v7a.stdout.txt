@@ -1,0 +1,169 @@
+[1/2] Building CXX object CMakeFiles/rtsp.dir/src/main/cpp/native-lib.cpp.o
+/Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android/src/main/cpp/native-lib.cpp:32:5: warning: 'av_register_all' is deprecated [-Wdeprecated-declarations]
+    av_register_all();
+    ^
+../../../../src/main/cpp/include/libavformat/avformat.h:2049:1: note: 'av_register_all' has been explicitly marked deprecated here
+attribute_deprecated
+^
+../../../../src/main/cpp/include/libavutil/attributes.h:100:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+/Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android/src/main/cpp/native-lib.cpp:33:5: warning: 'avcodec_register_all' is deprecated [-Wdeprecated-declarations]
+    avcodec_register_all();
+    ^
+../../../../src/main/cpp/include/libavcodec/avcodec.h:2750:1: note: 'avcodec_register_all' has been explicitly marked deprecated here
+attribute_deprecated
+^
+../../../../src/main/cpp/include/libavutil/attributes.h:100:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+/Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android/src/main/cpp/native-lib.cpp:36:30: warning: 'av_codec_next' is deprecated [-Wdeprecated-declarations]
+    AVCodec *current_codec = av_codec_next(current_codec);
+                             ^
+../../../../src/main/cpp/include/libavcodec/avcodec.h:2709:1: note: 'av_codec_next' has been explicitly marked deprecated here
+attribute_deprecated
+^
+../../../../src/main/cpp/include/libavutil/attributes.h:100:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+/Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android/src/main/cpp/native-lib.cpp:42:25: warning: 'av_codec_next' is deprecated [-Wdeprecated-declarations]
+        current_codec = av_codec_next(current_codec);
+                        ^
+../../../../src/main/cpp/include/libavcodec/avcodec.h:2709:1: note: 'av_codec_next' has been explicitly marked deprecated here
+attribute_deprecated
+^
+../../../../src/main/cpp/include/libavutil/attributes.h:100:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+/Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android/src/main/cpp/native-lib.cpp:52:98: warning: format specifies type 'char *' but the argument has type 'int' [-Wformat]
+        __android_log_print(ANDROID_LOG_ERROR, TAG, "Cannot open input %s, error : %s", rtspUrl, err);
+                                                                                   ~~            ^~~
+                                                                                   %d
+/Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android/src/main/cpp/native-lib.cpp:65:34: warning: 'codec' is deprecated [-Wdeprecated-declarations]
+        if (context->streams[i]->codec->codec_type == AVMEDIA_TYPE_VIDEO)
+                                 ^
+../../../../src/main/cpp/include/libavformat/avformat.h:879:5: note: 'codec' has been explicitly marked deprecated here
+    attribute_deprecated
+    ^
+../../../../src/main/cpp/include/libavutil/attributes.h:100:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+/Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android/src/main/cpp/native-lib.cpp:92:74: warning: 'codec' is deprecated [-Wdeprecated-declarations]
+    avcodec_copy_context(ccontext, context->streams[video_stream_index]->codec);
+                                                                         ^
+../../../../src/main/cpp/include/libavformat/avformat.h:879:5: note: 'codec' has been explicitly marked deprecated here
+    attribute_deprecated
+    ^
+../../../../src/main/cpp/include/libavutil/attributes.h:100:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+/Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android/src/main/cpp/native-lib.cpp:92:5: warning: 'avcodec_copy_context' is deprecated [-Wdeprecated-declarations]
+    avcodec_copy_context(ccontext, context->streams[video_stream_index]->codec);
+    ^
+../../../../src/main/cpp/include/libavcodec/avcodec.h:2826:1: note: 'avcodec_copy_context' has been explicitly marked deprecated here
+attribute_deprecated
+^
+../../../../src/main/cpp/include/libavutil/attributes.h:100:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+/Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android/src/main/cpp/native-lib.cpp:102:28: warning: 'avpicture_get_size' is deprecated [-Wdeprecated-declarations]
+    size_t size = (size_t) avpicture_get_size(AV_PIX_FMT_YUV420P, ccontext->width, ccontext->height);
+                           ^
+../../../../src/main/cpp/include/libavcodec/avcodec.h:3738:1: note: 'avpicture_get_size' has been explicitly marked deprecated here
+attribute_deprecated
+^
+../../../../src/main/cpp/include/libavutil/attributes.h:100:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+/Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android/src/main/cpp/native-lib.cpp:106:29: warning: 'avpicture_get_size' is deprecated [-Wdeprecated-declarations]
+    size_t size2 = (size_t) avpicture_get_size(AV_PIX_FMT_RGBA, ccontext->width, ccontext->height);
+                            ^
+../../../../src/main/cpp/include/libavcodec/avcodec.h:3738:1: note: 'avpicture_get_size' has been explicitly marked deprecated here
+attribute_deprecated
+^
+../../../../src/main/cpp/include/libavutil/attributes.h:100:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+/Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android/src/main/cpp/native-lib.cpp:108:5: warning: 'avpicture_fill' is deprecated [-Wdeprecated-declarations]
+    avpicture_fill( (AVPicture*) pic, picture_buf, AV_PIX_FMT_YUV420P, ccontext->width, ccontext->height );
+    ^
+../../../../src/main/cpp/include/libavcodec/avcodec.h:3723:1: note: 'avpicture_fill' has been explicitly marked deprecated here
+attribute_deprecated
+^
+../../../../src/main/cpp/include/libavutil/attributes.h:100:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+/Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android/src/main/cpp/native-lib.cpp:109:5: warning: 'avpicture_fill' is deprecated [-Wdeprecated-declarations]
+    avpicture_fill( (AVPicture*) picrgb, picture_buf2, AV_PIX_FMT_RGBA, ccontext->width, ccontext->height );
+    ^
+../../../../src/main/cpp/include/libavcodec/avcodec.h:3723:1: note: 'avpicture_fill' has been explicitly marked deprecated here
+attribute_deprecated
+^
+../../../../src/main/cpp/include/libavutil/attributes.h:100:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+/Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android/src/main/cpp/native-lib.cpp:116:88: warning: 'codec' is deprecated [-Wdeprecated-declarations]
+                stream = avformat_new_stream(oc, context->streams[video_stream_index]->codec->codec);
+                                                                                       ^
+../../../../src/main/cpp/include/libavformat/avformat.h:879:5: note: 'codec' has been explicitly marked deprecated here
+    attribute_deprecated
+    ^
+../../../../src/main/cpp/include/libavutil/attributes.h:100:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+/Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android/src/main/cpp/native-lib.cpp:117:46: warning: 'codec' is deprecated [-Wdeprecated-declarations]
+                avcodec_copy_context(stream->codec, context->streams[video_stream_index]->codec);
+                                             ^
+../../../../src/main/cpp/include/libavformat/avformat.h:879:5: note: 'codec' has been explicitly marked deprecated here
+    attribute_deprecated
+    ^
+../../../../src/main/cpp/include/libavutil/attributes.h:100:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+/Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android/src/main/cpp/native-lib.cpp:117:91: warning: 'codec' is deprecated [-Wdeprecated-declarations]
+                avcodec_copy_context(stream->codec, context->streams[video_stream_index]->codec);
+                                                                                          ^
+../../../../src/main/cpp/include/libavformat/avformat.h:879:5: note: 'codec' has been explicitly marked deprecated here
+    attribute_deprecated
+    ^
+../../../../src/main/cpp/include/libavutil/attributes.h:100:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+/Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android/src/main/cpp/native-lib.cpp:117:17: warning: 'avcodec_copy_context' is deprecated [-Wdeprecated-declarations]
+                avcodec_copy_context(stream->codec, context->streams[video_stream_index]->codec);
+                ^
+../../../../src/main/cpp/include/libavcodec/avcodec.h:2826:1: note: 'avcodec_copy_context' has been explicitly marked deprecated here
+attribute_deprecated
+^
+../../../../src/main/cpp/include/libavutil/attributes.h:100:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+/Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android/src/main/cpp/native-lib.cpp:118:85: warning: 'codec' is deprecated [-Wdeprecated-declarations]
+                stream->sample_aspect_ratio = context->streams[video_stream_index]->codec->sample_aspect_ratio;
+                                                                                    ^
+../../../../src/main/cpp/include/libavformat/avformat.h:879:5: note: 'codec' has been explicitly marked deprecated here
+    attribute_deprecated
+    ^
+../../../../src/main/cpp/include/libavutil/attributes.h:100:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+/Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android/src/main/cpp/native-lib.cpp:123:13: warning: 'avcodec_decode_video2' is deprecated [-Wdeprecated-declarations]
+            avcodec_decode_video2(ccontext, pic, &check, &packet);
+            ^
+../../../../src/main/cpp/include/libavcodec/avcodec.h:3072:1: note: 'avcodec_decode_video2' has been explicitly marked deprecated here
+attribute_deprecated
+^
+../../../../src/main/cpp/include/libavutil/attributes.h:100:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+/Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android/src/main/cpp/native-lib.cpp:141:9: warning: 'av_free_packet' is deprecated [-Wdeprecated-declarations]
+        av_free_packet(&packet);
+        ^
+../../../../src/main/cpp/include/libavcodec/packet.h:545:1: note: 'av_free_packet' has been explicitly marked deprecated here
+attribute_deprecated
+^
+../../../../src/main/cpp/include/libavutil/attributes.h:100:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+19 warnings generated.
+[2/2] Linking CXX shared library /Users/trivalent/Documents/workspace/fl_incusmate/build/rtsp_ffmpeg/intermediates/cmake/debug/obj/armeabi-v7a/librtsp.so

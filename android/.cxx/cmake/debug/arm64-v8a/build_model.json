@@ -1,0 +1,73 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "/Users/trivalent/Documents/workspace/fl_incusmate/android",
+      "sdkFolder": "/Volumes/SharedData/Android/sdk_mac",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "/Users/trivalent/Documents/workspace/fl_incusmate/build/rtsp_ffmpeg/intermediates",
+      "gradleModulePathName": ":rtsp_ffmpeg",
+      "moduleRootFolder": "/Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android",
+      "makeFile": "/Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android/CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "/Users/trivalent/Documents/workspace/fl_incusmate/android/.cxx",
+      "cxxFolder": "/Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android/.cxx",
+      "ndkFolder": "/Volumes/SharedData/Android/sdk_mac/ndk/21.1.6352462",
+      "ndkVersion": "21.1.6352462",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [
+      "-DANDROID_ARM_NEON\u003dTRUE",
+      "-DANDROID_STL\u003dc++_shared"
+    ],
+    "cFlagList": [],
+    "cppFlagsList": [
+      ""
+    ],
+    "variantName": "debug",
+    "soFolder": "/Users/trivalent/Documents/workspace/fl_incusmate/build/rtsp_ffmpeg/intermediates/cmake/debug/lib",
+    "objFolder": "/Users/trivalent/Documents/workspace/fl_incusmate/build/rtsp_ffmpeg/intermediates/cmake/debug/obj",
+    "jsonFolder": "/Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android/.cxx/cmake/debug",
+    "gradleBuildOutputFolder": "/Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android/.cxx/cxx/debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARM64_V8A",
+  "abiPlatformVersion": 16,
+  "cxxBuildFolder": "/Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android/.cxx/cmake/debug/arm64-v8a",
+  "jsonFile": "/Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android/.cxx/cmake/debug/arm64-v8a/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android/.cxx/cxx/debug/arm64-v8a",
+  "objFolder": "/Users/trivalent/Documents/workspace/fl_incusmate/build/rtsp_ffmpeg/intermediates/cmake/debug/obj/arm64-v8a",
+  "buildCommandFile": "/Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android/.cxx/cmake/debug/arm64-v8a/build_command.txt",
+  "buildOutputFile": "/Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android/.cxx/cmake/debug/arm64-v8a/build_output.txt",
+  "modelOutputFile": "/Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android/.cxx/cmake/debug/arm64-v8a/build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "/Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android/.cxx/cxx/debug/arm64-v8a/CMakeLists.txt",
+    "toolchainWrapperFile": "/Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android/.cxx/cxx/debug/arm64-v8a/android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "/Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android/.cxx/cxx/debug/arm64-v8a/build_generation_state.json",
+    "cacheKeyFile": "/Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android/.cxx/cxx/debug/arm64-v8a/compiler_cache_key.json",
+    "compilerCacheUseFile": "/Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android/.cxx/cxx/debug/arm64-v8a/compiler_cache_use.json",
+    "compilerCacheWriteFile": "/Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android/.cxx/cxx/debug/arm64-v8a/compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "/Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android/.cxx/cxx/debug/arm64-v8a/compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "/Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android/.cxx/cmake/debug/arm64-v8a/json_generation_record.json",
+  "compileCommandsJsonFile": "/Users/trivalent/AndroidStudioProjects/rtsp_ffmpeg/android/.cxx/cmake/debug/arm64-v8a/compile_commands.json"
+}
