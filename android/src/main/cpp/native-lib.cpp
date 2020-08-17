@@ -33,23 +33,23 @@ void* playBackThread(void *args) {
     avcodec_register_all();
     avformat_network_init();
 
-    AVCodec *current_codec = av_codec_next(current_codec);
-    while (current_codec != NULL)
-    {
-        std::string name(current_codec->name);
-        if(name.find("mediacodec"))
-            __android_log_print(ANDROID_LOG_ERROR, TAG,"codec:%s",current_codec->name);
-        current_codec = av_codec_next(current_codec);
-    }
+//    AVCodec *current_codec = av_codec_next(current_codec);
+//    while (current_codec != NULL)
+//    {
+//        std::string name(current_codec->name);
+//        if(name.find("mediacodec"))
+//            __android_log_print(ANDROID_LOG_ERROR, TAG,"codec:%s",current_codec->name);
+//        current_codec = av_codec_next(current_codec);
+//    }
 
 
-    AVDictionary *option = NULL;
+//    AVDictionary *option = NULL;
     //av_dict_set(&option, "rtsp_transport", "tcp", 0);
 
     // Open RTSP
     char *rtspUrl = static_cast<char *>(args);
-    if (int err = avformat_open_input(&context, rtspUrl, NULL, &option) != 0) {
-        __android_log_print(ANDROID_LOG_ERROR, TAG, "Cannot open input %s, error : %s", rtspUrl, err);
+    if (int err = avformat_open_input(&context, rtspUrl, NULL, nullptr) != 0) {
+        __android_log_print(ANDROID_LOG_ERROR, TAG, "Cannot open input %s, error : %s", rtspUrl, av_err2str(err));
         free(rtspUrl);
         return (void *)JNI_ERR;
     }
