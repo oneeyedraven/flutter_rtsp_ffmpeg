@@ -1,16 +1,16 @@
 name: rtsp_ffmpeg
 description: An FFMPEG based RTSP player flutter plugin. This support Almost real time RTSP playback using native code.
 version: 0.0.1
-author:
 homepage:
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
-  flutter: ">=1.10.0"
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.12.0"
 
 dependencies:
   flutter:
     sdk: flutter
+  plugin_platform_interface: ^2.1.2
 
 dev_dependencies:
   flutter_test:
